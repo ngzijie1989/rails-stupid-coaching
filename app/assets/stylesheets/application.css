@@ -13,3 +13,19 @@
  *= require_tree .
  *= require_self
  */
+
+ .question, .answer{
+    border: 1px solid black;
+    border-radius: 10px;
+ }
+
+ .containerss{
+  width: 50%;
+  margin: 0 auto;
+ }
+
+ .form{
+  width: 80%;
+  text-align: center;
+  margin: 50px auto;
+ }

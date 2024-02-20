@@ -1,0 +1,21 @@
+
+<div class="containerss">
+  <h1 class="mb-5">Stupid Coach</h1>
+
+  <div class="mb-5 p-2">
+    <div class="question bg-primary p-5 mb-3">
+      <h1><%=params[:question]%></h1>
+      <br><p>-You</p>
+    </div>
+
+    <div class="answer bg-primary p-5">
+      <h1><%=@answer%></h1>
+      <br><p>-Your Coach</p>
+    </div>
+  </div>
+
+  <div class="link mt-5">
+    <%= link_to "Ask another question?", ask_path%>
+  </div>
+</div>
+
